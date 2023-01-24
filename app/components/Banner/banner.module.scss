@@ -1,0 +1,10 @@
+@import "@/app/styles/_variables.scss";
+@import "@/app/styles/_mixins.scss";
+
+.banner {
+  background-color: $ligh-blue;
+  height: 170px;
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto 40px;
+}

@@ -1,0 +1,14 @@
+@import "@/app/styles/_variables.scss";
+@import "@/app/styles/_mixins.scss";
+
+.sidebar {
+  display: none;
+
+  @include media($large) {
+    display: block;
+  }
+
+  max-width: 300px;
+  width: 100%;
+  background-color: $ligh-blue;
+}

@@ -1,0 +1,30 @@
+@import "@/app/styles/_variables.scss";
+@import "@/app/styles/_mixins.scss";
+
+.nav {
+  margin: 20px 0px;
+
+  .tagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    .tag {
+      list-style: none;
+      position: relative;
+
+      &::after {
+        content: "·";
+        position: absolute;
+        right: -6px;
+        color: $blue;
+      }
+
+      &:last-of-type {
+        &::after {
+          content: " ";
+        }
+      }
+    }
+  }
+}

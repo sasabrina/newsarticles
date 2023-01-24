@@ -1,0 +1,23 @@
+@import "@/app/styles/_variables.scss";
+@import "@/app/styles/_mixins.scss";
+
+.loadMore {
+  color: $blue;
+  background: none;
+  border: 1px solid $blue;
+  border-radius: 3px;
+  padding: 9px 18px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:any-link {
+    background-color: $blue;
+    color: $white;
+  }
+}
+
+.link {
+  margin-right: 8px;
+  color: $blue;
+}

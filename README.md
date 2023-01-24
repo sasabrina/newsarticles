@@ -7,6 +7,9 @@
 - El endpoint provisto contiene un json con lo que representan 30 notas o artículos. Con estos datos se deben alcanzar los siguientes objetivos:
   - Agrupar, totalizar y ordenar de mayor a menor los tags encontrados en las notas.
   - Del ordenamiento anterior mostrar los primeros 10 tags debajo del título.
+  - El href a contener debe ser: “/tema/[tag.slug]”
+- Mostrar los 30 artículos en la grilla de artículos
+  - Listar sólo artículos con el "subtype":"7"
 - Extra: el botón "más notas" va agregando 10 articulos a la grilla hasta mostrar el total de articulos.
 
 ## Stack de tecnologías
